@@ -18,11 +18,12 @@
      if(arr[i]< min){
       min = arr{i];
      }
+     printf("Minimum element = %d", min);
     if(arr[i] > max){
         max = arr[i];
     }
+     printf("Maximum element = %d", max);
 }
-printf("Maximum element = %d", max);
-
+  
 return 0;
 }   
