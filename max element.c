@@ -15,6 +15,9 @@
     int max = arr[n];
 
     for(i=1;i<=n;i++){
+     if(arr[i]< min){
+      min = arr{i];
+     }
     if(arr[i] > max){
         max = arr[i];
     }
